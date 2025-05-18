@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body.light {
+  background-color: #a4a4a4;
+  color: #111827;
+}
+
+body.dark {
+  color: #f9fafb;
+}
+
+body {
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+} */
+
+
+/* index.css */
+
+body.light {
+  --bg-color: #b6b6b6; /* светлый фон */
+  --bgr-color:#9a9b9d;
+  --text-color: #111827; /* тёмный текст */
+  --icon-color: #374151; /* тёмные иконки для светлой темы */
+  --hover-bg: #d1d5db; /* hover для кнопок */
+  --active-bg: #2563eb; /* активный фон */
+  /* --active-text: #ffffff; активный текст */
+}
+
+body.dark {
+  --bg-color: #1f2937; /* тёмный фон */
+  --bgr-color:#1a232f;
+  --text-color: #f9fafb; /* светлый текст */
+  --icon-color: #dee2e7b0; /* светлые иконки для тёмной темы */
+  --hover-bg: #374151; /* hover для кнопок */
+  --active-bg: #2563eb; /* активный фон */
+  /* --active-text: #ffffff; активный текст */
+}
+
+/* Общее применение переменных */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
