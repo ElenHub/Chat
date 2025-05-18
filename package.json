@@ -5,9 +5,7 @@
   "scripts": {
     "dev": "nodemon server/src/server.js",
     "start": "node server/src/server.js",
-  "client-install": "yarn --prefix client install",
-  "client-build": "yarn --prefix client build",
-  "build": "yarn install && yarn client-install && yarn client-build"
+  "build": "yarn install && yarn install --prefix client && yarn build --prefix client"
   },
   "keywords": [],
   "author": "",
