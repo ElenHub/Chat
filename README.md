@@ -1,7 +1,5 @@
  # MERN Stack Project
 
-Demo Application: https://chat-app-pdru.onrender.com
-
 ## Technologies Used
 
 - **Frontend**: React, Tailwind CSSр
