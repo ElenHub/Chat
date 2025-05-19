@@ -2,7 +2,7 @@
 
 ## Technologies Used
 
-- **Frontend**: React, Tailwind CSSр
+- **Frontend**: React, Tailwind CSS
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 
